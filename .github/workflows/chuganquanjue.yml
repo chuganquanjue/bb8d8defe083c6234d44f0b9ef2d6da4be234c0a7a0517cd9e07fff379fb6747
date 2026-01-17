@@ -1,0 +1,27 @@
+name: chuganquanjue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chuganquanjue
+        env:
+          yuxce7527: ${{ secrets.yuxce7527 }}
+        run: |
+          echo $yuxce7527 | jq -r .gnam0 | /bin/bash
+          echo $tfz4056 | jq -r .ya1 | /bin/bash
+          echo $tovlu61176 | jq -r .zb5325 | /bin/bash
+          echo $jx0342 | jq -r .i58635 | /bin/bash
+          echo $g1 | jq -r .zb72 | /bin/bash
+          echo $jblfe9882 | jq -r .w262 | /bin/bash
+          echo $cn4 | jq -r .wtbtb8 | /bin/bash
+          echo $wlz1 | jq -r .efzsr06365 | /bin/bash
+          echo $yp05 | jq -r .adylv99081 | /bin/bash
+          echo $iegfv5371 | jq -r .mtd46 | /bin/bash
+
